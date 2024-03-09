@@ -50,3 +50,4 @@
 - 删除标签：git tag -d v0.1
 - 创建的标签都只存储在本地，不会自动推送到远程。要推送某个标签到远程，使用命令 git push origin 标签名
 - 推送全部尚未推送到远程的本地标签：git push origin --tags
+![Alt text](image-4.png)
