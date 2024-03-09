@@ -10,3 +10,6 @@
 ---
 ## 管理修改
 
+* git restore --staged test.md可以将文件test.md从暂存区撤销
+* 我又添加了新东西
+* 
