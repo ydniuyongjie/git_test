@@ -2,4 +2,6 @@
 
 >[!TIP] 首先明白在GIT中有几个概念：工作区---暂存区---版本库以及远程库
 
-* git add test.c &nbsp;&nbsp;&nbsp;&nbsp;创建text.c文件到工作区，并添加到暂存区
+* git add test.c &nbsp;&nbsp;&nbsp;&nbsp;工作区创建text.c文件，并**添加**到暂存区
+* git commit &nbsp;&nbsp;&nbsp;&nbsp; 将文件从暂存区提交到版本库
+* 
