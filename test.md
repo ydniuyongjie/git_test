@@ -30,4 +30,9 @@
 * 删除分支：git branch -d 分支名
 * git merge dev：将分支dev合并到当前分支
 ## 标签管理
-* 
+* 为某个提交打标签：git tag v1.0
+* 查看标签：git tag
+* 创建带有说明的标签，用-a指定标签名，-m指定说明文字:git tag -a v0.1 -m "version 0.1 released" 1094adb
+* 删除标签：git tag -d v0.1
+* 创建的标签都只存储在本地，不会自动推送到远程。要推送某个标签到远程，使用命令git push origin 标签名
+* 推送全部尚未推送到远程的本地标签：git push origin --tags
