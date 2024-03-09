@@ -27,4 +27,5 @@
 * 分支就是指针操作。
 * 创建新分支：git branch -c 分支名
 * 切换分支：git switch 分支名
-* 
+* 删除分支：git branch -d 分支名
+* git merge dev：将分支dev合并到当前分支
