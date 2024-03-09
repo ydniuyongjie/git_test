@@ -17,6 +17,13 @@
     
     1. 我删除错了，需要恢复，git checkout -- test.c :从版本库中将文件恢复到工作区。
     2. 这个文件的确需要删除，那用git rm test.c 从版本库中将test.c文件删除，然后使用git commit -m “删除文件”进行确认，否则文件没有真的被删除。
-*  fsfsdfs
-*  fsad
-*  
+## 分支管理
+*  HEAD指向的就是**当前分支**.
+*  当我们创建新的分支，例如dev时，Git新建了一个指针叫dev，指向master相同的提交，再把HEAD指向dev，就表示当前分支在dev上
+![Alt text](image.png)
+*  在dev上的工作完成了，就可以把dev合并到master上。Git怎么合并呢？最简单的方法，就是直接把master指向dev的当前提交，就完成了合并
+![](image-2.png)
+* 合并完分支后，可以删除dev分支。删除dev分支就是把dev指针给删掉。
+* 分支就是指针操作。
+* 创建新分支：git branch -c 分支名
+* 
