@@ -1,25 +1,5 @@
-# 这是我的第一个文件
+# 一份简单的GIT教程
 
-> 这是一个块
-> 真的吗？
-> 真的。
+>[!TIP] 首先明白在GIT中有几个概念：工作区---暂存区---版本库以及远程库
 
-* list 1
-* list 2
-
----
-
-1. olist 1
-
-2. olist 2
-
->[!TIP] 这是一个信息，该信息的显示很有趣
-
-```python
-#这是一段python代码
-import numpy as np
-a=np.array(1,3)
-b=a
-```
-
-我在主要分支进行开发
+* git add test.c &nbsp;&nbsp;&nbsp;&nbsp;创建text.c文件到工作区，并添加到暂存区
