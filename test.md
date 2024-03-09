@@ -29,3 +29,5 @@
 * 切换分支：git switch 分支名
 * 删除分支：git branch -d 分支名
 * git merge dev：将分支dev合并到当前分支
+## 标签管理
+* 
