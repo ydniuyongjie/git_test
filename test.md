@@ -11,5 +11,12 @@
 ## 管理修改
 
 * git restore --staged test.md可以将文件test.md从暂存区撤销
-* 我又添加了新东西
-* 
+* git reset HEAD test.md**也**可以将文件test.md从暂存区撤销，是从**版本库**将文件恢复，
+*  现在我在项目里添加了一个文件叫test.c文件，
+而且我已经提交给版本库，现在我手工把test.c文件从工作区删掉了。存在两种情况：
+    
+    1. 我删除错了，需要恢复，git checkout -- test.c :从版本库中将文件恢复到工作区。
+    2. 这个文件的确需要删除，那用git rm test.c
+*  fsfsdfs
+*  fsad
+*  
