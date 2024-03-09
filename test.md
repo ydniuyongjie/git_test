@@ -21,8 +21,4 @@ import numpy as np
 a=np.array(1,3)
 b=a
 ```
-
-我在版本库
-
-我在暂存区
-
+我在开发分支进行开发
