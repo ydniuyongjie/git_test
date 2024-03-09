@@ -6,5 +6,7 @@
 * git commit &nbsp;&nbsp;&nbsp;&nbsp; 将文件从暂存区提交到版本库
 * git reset --hard HEAD^ &nbsp;&nbsp;&nbsp;&nbsp; 回退到上一个版本
 * git reflog&nbsp;&nbsp;&nbsp;&nbsp;用来记录你的每一次命令
-* 
-* 
+
+---
+## 管理修改
+
