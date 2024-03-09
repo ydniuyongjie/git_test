@@ -15,3 +15,9 @@
 
 >[!TIP] 这是一个信息，该信息的显示很有趣
 
+```python
+#这是一段python代码
+import numpy as np
+a=np.array(1,3)
+b=a
+```
