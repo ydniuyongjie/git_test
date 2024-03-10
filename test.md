@@ -23,8 +23,8 @@
 
 - 现在我在项目里添加了一个文件叫 test.c 文件，
   而且我已经提交给版本库，现在我手工把 test.c 文件从工作区删掉了。存在两种情况：
-   1. 我删除错了，需要恢复，git checkout -- test.c :从版本库中将文件恢复到工作区。 
-   2. 这个文件的确需要删除，那用 git rm test.c 从版本库中将 test.c 文件删除，然后使用 git commit -m “删除文件”进行确认，否则文件没有真的被删除。
+  1.  我删除错了，需要恢复，git checkout -- test.c :从版本库中将文件恢复到工作区。
+  2.  这个文件的确需要删除，那用 git rm test.c 从版本库中将 test.c 文件删除，然后使用 git commit -m “删除文件”进行确认，否则文件没有真的被删除。
 
 ## 分支管理
 
@@ -50,4 +50,4 @@
 - 删除标签：git tag -d v0.1
 - 创建的标签都只存储在本地，不会自动推送到远程。要推送某个标签到远程，使用命令 git push origin 标签名
 - 推送全部尚未推送到远程的本地标签：git push origin --tags
-![Alt text](image-4.png)
+  ![Alt text](image-4.png)
